@@ -25,7 +25,7 @@ var userSchema = new mongoose.Schema({
     trim: true
   },
   //TODO: come back here
-  password: {
+  encry_password: {
     type: String,
     trim: true
   },
@@ -39,4 +39,13 @@ var userSchema = new mongoose.Schema({
     default: []
   }
 });
+
+userSchema.method = {
+
+  
+}
+
+module.exports = mongoose.model("User", userSchema);
+
+
 
