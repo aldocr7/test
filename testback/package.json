@@ -1,0 +1,20 @@
+{
+  "name": "testback",
+  "version": "1.0.0",
+  "description": "mytestproj",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldocr7/test.git"
+  },
+  "author": "ron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldocr7/test/issues"
+  },
+  "homepage": "https://github.com/aldocr7/test#readme"
+}
+
